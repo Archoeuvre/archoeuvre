@@ -1078,6 +1078,13 @@ textarea::-webkit-scrollbar-thumb{
     .home .content h1{
         font-size:2rem;
     }
+    .home .content h1 span {
+        font-size: 14px;
+        font-weight: 500;
+        color: #ffffff;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+    }
 
     .home .video-slide{
         width:100%;
@@ -1106,6 +1113,13 @@ textarea::-webkit-scrollbar-thumb{
 
     .home .content h1{
         font-size:1.5rem;
+    }
+    .home .content h1 span {
+        font-size: 12px;
+        font-weight: 500;
+        color: #ffffff;
+        text-transform: uppercase;
+        letter-spacing: 1px;
     }
 
 }
