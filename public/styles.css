@@ -423,6 +423,36 @@ section.left .contactTitle p{
 section.left .contactInfo{
 	margin-bottom: 16px;
 }
+.left{
+    margin-bottom: 10px;
+}
+.right h2{
+	position: relative;
+	font-size: 28px;
+	color: #ffffff;
+	display: inline-block;
+	margin-bottom: 25px;
+}
+.right h2::before{
+	content: '';
+	position: absolute;
+	width: 25%;
+	height: 1px;
+	background-color: #ffffff;
+	top: 120%;
+	left: 50%;
+}
+.right h2::after{
+	content: '';
+	position: absolute;
+	width: 25%;
+	height: 3px;
+	background-color: rgb(255, 255, 255);
+	top: calc(120% - 1px);
+	left: 30%;
+}
+
+
 .contactInfo .iconGroup{
 	display: flex;
 	align-items: center;
@@ -471,6 +501,10 @@ section.left .contactInfo{
     text-align: left;
 	color: #000000;
 	font-size: 15px;
+}
+
+section.col.left{
+    padding-bottom: 25px;
 }
 
 .get-direction{
@@ -612,59 +646,55 @@ textarea::-webkit-scrollbar-thumb{
 .container-5{
     display: flex;
     margin:50px 15%;
+    justify-content: space-around;
   }
 .image-about{
     padding-bottom: 20px;
-
 }
 
-  .image-about-2{
+.image-about-2{
     height: 300px;
     width: 300px;
-
-  }
+}
   .image-about-2 img{
     width: 100%;
     height: 100%;
+}
 
-  }
-
-  .role{
+.role{
     margin-top: 20px;
-  }
-  .role h2{
+}
+.role h2{
     font-size: 12px;
     font-weight: 500;
     text-align: center;
     text-transform: uppercase;
-
+    letter-spacing: 1px;
+}
+  .role h1{
+    font-size: 15px;
+    font-weight: 600;
+    text-align: center;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    margin-bottom: 5px;
   }
 
-  .about-description{
-  margin-left: 100px;
+  .role p{
+    margin-top: 10px;
+    text-align: center;
   }
-
-  .about-description h4{
-    margin: 0;
-    font-weight: 400;
-    text-align: left;
-  }
-
-  .about-description p{
-    margin-top: 50px;
-    text-align: left;
-  }
-  .about-description p span{
+  .role p span{
     padding-right: 25px;
   }
 
-  .about-description p span a{
+  .role p span a{
     text-decoration: none;
     color: black;
   }
 
   .about-description p span a i{
-    font-size: 20px;
+    font-size: 50px;
   }
   
 
@@ -769,6 +799,32 @@ textarea::-webkit-scrollbar-thumb{
         margin-left: 10px;
         position: relative;
     }
+    .right h2{
+        position: relative;
+        font-size: 28px;
+        color: #000000;
+        display: inline-block;
+        margin-bottom: 25px;
+    }
+    .right h2::before{
+        content: '';
+        position: absolute;
+        width: 25%;
+        height: 1px;
+        background-color: #000000;
+        top: 120%;
+        left: 50%;
+    }
+    .right h2::after{
+        content: '';
+        position: absolute;
+        width: 25%;
+        height: 3px;
+        background-color: rgb(0, 0, 0);
+        top: calc(120% - 1px);
+        left: 30%;
+    }
+    
 }
 
 @media(max-width:300px){
