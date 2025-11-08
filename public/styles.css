@@ -479,11 +479,11 @@ section.left .contactInfo{
 
 .iconGroup .icon-2{
 	width: 45px;
+	min-width:45px;
 	height: 45px;
     color: black;
 	border-radius: 50%;
 	margin-right: 35px;
-    margin-left: 15px;
 	position: relative;
 }
 .iconGroup .icon-2 i{
@@ -796,7 +796,6 @@ textarea::-webkit-scrollbar-thumb{
         color: black;
         border-radius: 50%;
         margin-right: 20px;
-        margin-left: 10px;
         position: relative;
     }
     .right h2{
